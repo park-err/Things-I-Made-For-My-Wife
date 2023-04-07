@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat-y;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-style: solid;
+    height: 20vh;
+    margin-bottom: 20vh;
+    background-color: black;
+}
+
+#title {
+    color: white;
+    font-size: 100px;
+}
+
+main {
+    margin: 20px auto;
+    width: 80vw;
+}
+
+.food {
+    margin-bottom: 100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.item {
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.price {
+    float: right;
+    font-size: 20px;
+}
+
+.desc {
+    max-width: 70%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#drinks {
+    margin-bottom: 60px;
+}
