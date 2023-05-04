@@ -1,0 +1,52 @@
+.blog, .article {
+    position: relative;
+    height: fit-content;
+    padding-bottom: 0;
+}
+
+.article, .title {
+    min-height: auto;
+    height: fit-content;
+    padding: 10 10px;
+    white-space: normal;
+    color: #000000;
+}
+
+.published {
+    margin: 20px 0 60px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #55BA66;
+}
+
+.published span {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.article *{
+    margin: 30px 0;
+}
+
+.article-image {
+    max-width: 100%;
+    max-height: 400px;
+    display: block;
+    margin: 30px auto;
+    object-fit: contain;
+}
+
+.sub-heading {
+    padding: 0 5vw;
+    color: #55BA66;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 80px; 
+}
+
+.title {
+    text-align: center;
+    background-color: var(--background);
+    color: #ffffff;
+}
